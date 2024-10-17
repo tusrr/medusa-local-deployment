@@ -27,7 +27,7 @@ const ADMIN_CORS =
 
 // CORS to avoid issues when consuming Medusa from a client
 const STORE_CORS =
-  process.env.STORE_CORS || "http://localhost:8000" || "http://127.0.0.1:5500";
+  process.env.STORE_CORS || "http://localhost:8000,http://127.0.0.1:5500";
 
 const DATABASE_URL =
   process.env.DATABASE_URL || "postgres://localhost/medusa-starter-default";
